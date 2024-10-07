@@ -2,6 +2,8 @@
 
 The LeetCode Documentor is a desktop application built with the **Fyne** GUI framework in Go. It assists developers in documenting LeetCode solutions in multiple programming languages by allowing them to input the problem, select relevant programming languages, and generate documentation files. Below are the core features, setup instructions, and future enhancements.
 
+The goal of the LeetCode Documentor project is to provide a practical way to improve programming skills while contributing to your Git repository. By documenting solutions for each problem, you not only practice coding but also maintain a clear record of your progress and problem-solving approaches. This project ensures consistent contributions to your Git, enhancing your portfolio while helping you refine your skills in various languages, structuring code effectively, and managing a well-organized development process.
+
 ## Features
 
 ### 1. **User-friendly GUI**: 

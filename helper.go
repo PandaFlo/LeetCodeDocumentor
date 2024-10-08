@@ -5,6 +5,7 @@ import (
 	"LeetCodeDocumentor/models"
 	"LeetCodeDocumentor/xmlhelper"
 	"fmt"
+	"os"
 	"strconv"
 	"strings"
 
@@ -13,6 +14,12 @@ import (
 	"fyne.io/fyne/v2/dialog"
 	"fyne.io/fyne/v2/widget"
 )
+
+// Helper function to load an icon from a file
+func loadIcon(path string) []byte {
+	data, _ := os.ReadFile(path)
+	return data
+}
 
 // ShortenPath reduces the length of a file path for display purposes
 func ShortenPath(path string) string {

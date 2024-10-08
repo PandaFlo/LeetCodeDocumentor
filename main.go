@@ -69,9 +69,3 @@ func main() {
 	myWindow.Resize(fyne.NewSize(1000, 600))
 	myWindow.ShowAndRun()
 }
-
-// Helper function to load an icon from a file
-func loadIcon(path string) []byte {
-	data, _ := os.ReadFile(path)
-	return data
-}
